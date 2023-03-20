@@ -18,7 +18,12 @@
     "baseUrl": ".",
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "typeRoots": ["node_modules/yup", "node_modules/@types/yup"]
+    "typeRoots": [
+      "./node_modules/@types"
+  ],
+      "types": [
+      "@openui5/ts-types-esm"
+  ],
   },
   "include": [
     "src/custom.d.ts",
